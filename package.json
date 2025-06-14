@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "npx tailwindcss -i ./src/input.css -o ./public/output.css --watch && emulator start",
-    "build": "npx tailwindcss -i ./src/input.css -o ./public/output.css && firebase deploy"
+    "build": "npx tailwindcss -i ./src/styles/input.css -o ./public/output.css && firebase deploy"
   },
   "keywords": [],
   "author": "",
