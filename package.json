@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "npx tailwindcss -i ./src/input.css -o ./public/output.css --watch && emulator start",
+    "build": "npx tailwindcss -i ./src/input.css -o ./public/output.css && firebase deploy"
   },
   "keywords": [],
   "author": "",
